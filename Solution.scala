@@ -12,8 +12,8 @@ object sol extends App{
   }
 
   var sp=solution();
-  //println(sp.cel_to_fa(35));
-//  println(sp.volume_of_sphere(6));
-    println(sp.total_cost(60));
+    println("35C in Fahrenheit = "+sp.cel_to_fa(35));
+    println("Volume of a sphere = "+sp.volume_of_sphere(6));
+    println("Total wholesale cost for 60 copies = "+sp.total_cost(60));
 
 }
